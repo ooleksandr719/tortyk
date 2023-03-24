@@ -10,7 +10,7 @@ describe('Regressionshoptests', () => {
  })
 
 it('Check search',() => {
-   cy.get('#search').type('Dermablend Loose Setting Powder')
+   cy.get('#search').type('Dermablend Loose Setting Powder'),
    cy.get('.amsearch-wrapper-content').should('contain','Dermablend Loose Setting Povder')
 })
 
